@@ -1,4 +1,4 @@
-# memory-game
+# memory-game [![Build Status](https://travis-ci.org/izmirli/memory-game.svg?branch=master)](https://travis-ci.org/izmirli/memory-game)
 A python cli memory game.
 
 ## :mahjong: Game Description
