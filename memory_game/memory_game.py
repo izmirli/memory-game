@@ -116,7 +116,8 @@ def get_cell(board, prev_cell=None):
                 print('These are same coordinates of previous cell. Please choose a different one.')
                 continue
         except IndexError:
-            print(f'Invalid coordinates given - please stay withing the game board (0-{board.columns - 1},0-{board.rows - 1}).')
+            print(f'Invalid coordinates given - please stay withing the game board \
+(0-{board.columns - 1},0-{board.rows - 1}).')
             continue
         return cell_index
 

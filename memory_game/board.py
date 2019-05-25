@@ -126,7 +126,7 @@ class Board:
         :return: None.
         """
         self.games_history['games'] += 1
-        number_of_shapes = int(self.columns * self.rows / 2)
+        number_of_shapes = str(int(self.columns * self.rows / 2))
         if number_of_shapes not in self.games_history or self.games_history[str(number_of_shapes)] > turns:
             self.games_history[str(number_of_shapes)] = turns
 
